@@ -3,3 +3,4 @@ export declare const reorderArray: <T>({ items, oldIndex, newIndex, }: {
     oldIndex: number;
     newIndex: number;
 }) => (T | undefined)[];
+//# sourceMappingURL=reorderArray.d.ts.map

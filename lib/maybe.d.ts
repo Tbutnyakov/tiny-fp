@@ -11,3 +11,4 @@ export declare class Maybe<A> {
     ap<B>(otherMaybe: Maybe<B>): Maybe<B>;
 }
 export declare const maybe: <F>(someValue: F) => Maybe<F>;
+//# sourceMappingURL=maybe.d.ts.map

@@ -23,3 +23,4 @@ export declare type CurriedFunction4<P0, P1, P2, P3, R> = {
 export declare function curry2<P0, P1, R>(fn: (p0: P0, p1: P1) => R): CurriedFunction2<P0, P1, R>;
 export declare function curry3<P0, P1, P2, R>(fn: (p0: P0, p1: P1, p2: P2) => R): CurriedFunction3<P0, P1, P2, R>;
 export declare function curry4<P0, P1, P2, P3, R>(fn: (p0: P0, p1: P1, p2: P2, p3: P3) => R): CurriedFunction4<P0, P1, P2, P3, R>;
+//# sourceMappingURL=curry.d.ts.map
