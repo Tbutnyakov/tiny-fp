@@ -1,0 +1,33 @@
+{
+  "name": "tiny-fp",
+  "version": "1.0.0",
+  "description": "Simply tini package for function programming with Typescript",
+  "main": "./lib/index.js",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "test": "jest -c jest.config.js",
+    "test:watch": "jest --watch -c jest.config.js",
+    "test:coverage": "jest --coverage -c jest.config.js",
+    "lint:js": "eslint . --ext .js,.ts,",
+    "lint:js:fix": "eslint . --fix --ext .js,.ts,",
+    "prettier": "prettier --ignore-path .gitignore --write ./**/*.{js,ts}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tbutnyakov/tiny-fp.git"
+  },
+  "author": "Timofey Butnyakov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tbutnyakov/tiny-fp/issues"
+  },
+  "homepage": "https://github.com/Tbutnyakov/tiny-fp#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "jest": "^26.6.3",
+    "prettier": "2.2.1",
+    "ts-jest": "^26.5.2",
+    "typescript": "^4.2.2"
+  }
+}
