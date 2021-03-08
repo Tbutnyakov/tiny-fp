@@ -4,4 +4,3 @@ declare type randomType = {
 };
 export declare const random: randomType;
 export {};
-//# sourceMappingURL=random.d.ts.map

@@ -4,4 +4,3 @@ declare type headType = {
 };
 export declare const head: headType;
 export {};
-//# sourceMappingURL=head.d.ts.map

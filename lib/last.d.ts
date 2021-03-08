@@ -4,4 +4,3 @@ declare type lastType = {
 };
 export declare const last: lastType;
 export {};
-//# sourceMappingURL=last.d.ts.map
