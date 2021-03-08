@@ -1,11 +1,11 @@
 {
   "name": "tiny-fp",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple tiny package for functional programming with Typescript",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
-  "exports": {
-    "./": "./lib/"
+  "directories": {
+    "bin": "./lib/"
   },
   "scripts": {
     "dev": "tsc --watch",
