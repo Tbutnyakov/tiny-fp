@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Simple tiny package for functional programming with Typescript",
   "main": "./lib/index.js",
+  "exports": {
+    "./": "./lib"
+  },
   "scripts": {
     "dev": "tsc --watch",
     "build": "tsc",
