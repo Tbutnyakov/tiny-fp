@@ -12,7 +12,7 @@ export const reorderArray = <T>({
   if (Object.is(oldIndex, newIndex)) return newItems;
 
   const movedAddress = newItems[oldIndex];
-  const remainingItems = newItems.filter((item, index) => index !== oldIndex);
+  const remainingItems = newItems.filter((_, index) => index !== oldIndex);
   return [
     ...remainingItems.slice(0, newIndex),
     movedAddress,
