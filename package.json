@@ -7,6 +7,17 @@
   "exports": {
     "./": "./lib/"
   },
+  "sideEffects": false,
+  "keywords": [
+    "functional",
+    "utils",
+    "utilities",
+    "toolkit",
+    "fp",
+    "point-free",
+    "curried",
+    "pure"
+  ],
   "scripts": {
     "dev": "tsc --watch",
     "build": "tsc",
