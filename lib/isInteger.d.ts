@@ -1,1 +1,1 @@
-export declare const isInt: (n: any) => boolean;
+export declare const isInteger: (n: any) => boolean;
