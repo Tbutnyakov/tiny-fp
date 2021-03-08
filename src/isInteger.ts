@@ -1,1 +1,1 @@
-export const isInt = (n: any) => Number(n) === n && n % 1 === 0;
+export const isInteger = (n: any) => Number(n) === n && n % 1 === 0;
