@@ -4,8 +4,8 @@
   "description": "Simple tiny package for functional programming with Typescript",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
-  "directories": {
-    "bin": "./lib/"
+  "exports": {
+    "./": "./lib/"
   },
   "scripts": {
     "dev": "tsc --watch",
