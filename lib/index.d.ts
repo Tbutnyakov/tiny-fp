@@ -26,6 +26,7 @@ export { pick } from './pick';
 export { skip } from './skip';
 export { sleep } from './sleep';
 export { includes } from './includes';
+export { random } from './random';
 export { reorderArray } from './reorderArray';
 export { updateArray } from './updateArray';
 export { noop } from './noop';
