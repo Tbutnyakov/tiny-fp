@@ -19,6 +19,7 @@
 - [isFloat](modules.md#isfloat)
 - [isInteger](modules.md#isinteger)
 - [isNotEmpty](modules.md#isnotempty)
+- [isObject](modules.md#isobject)
 - [isRecord](modules.md#isrecord)
 - [isString](modules.md#isstring)
 - [last](modules.md#last)
@@ -32,6 +33,7 @@
 - [pipe](modules.md#pipe)
 - [prepend](modules.md#prepend)
 - [prop](modules.md#prop)
+- [random](modules.md#random)
 - [reorderArray](modules.md#reorderarray)
 - [skip](modules.md#skip)
 - [sleep](modules.md#sleep)
@@ -54,7 +56,7 @@ Name | Type |
 
 **Returns:** *any*
 
-Defined in: [append.ts:4](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/append.ts#L4)
+Defined in: [append.ts:4](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/append.ts#L4)
 
 ___
 
@@ -70,7 +72,7 @@ Name | Type |
 
 **Returns:** (...`props`: *any*) => *any*
 
-Defined in: [curry.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/curry.ts#L1)
+Defined in: [curry.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/curry.ts#L1)
 
 ___
 
@@ -94,7 +96,7 @@ Name | Type |
 
 **Returns:** (...`args`: *Parameters*<T\>) => *void*
 
-Defined in: [debounce.ts:3](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/debounce.ts#L3)
+Defined in: [debounce.ts:3](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/debounce.ts#L3)
 
 ___
 
@@ -110,7 +112,7 @@ Name | Type |
 
 **Returns:** *any*
 
-Defined in: [divide.ts:3](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/divide.ts#L3)
+Defined in: [divide.ts:3](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/divide.ts#L3)
 
 ___
 
@@ -133,7 +135,7 @@ Name | Type |
 
 **Returns:** *Record*<string, T[]\>
 
-Defined in: [groupBy.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/groupBy.ts#L1)
+Defined in: [groupBy.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/groupBy.ts#L1)
 
 ___
 
@@ -155,7 +157,7 @@ Name | Type |
 
 **Returns:** T
 
-Defined in: [head.ts:8](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/head.ts#L8)
+Defined in: [head.ts:8](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/head.ts#L8)
 
 ▸ `Const`**head**(`x`: String): String
 
@@ -167,7 +169,7 @@ Name | Type |
 
 **Returns:** String
 
-Defined in: [head.ts:8](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/head.ts#L8)
+Defined in: [head.ts:8](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/head.ts#L8)
 
 ___
 
@@ -183,7 +185,7 @@ Name | Type |
 
 **Returns:** *any*
 
-Defined in: [includes.ts:3](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/includes.ts#L3)
+Defined in: [includes.ts:3](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/includes.ts#L3)
 
 ___
 
@@ -199,7 +201,7 @@ Name | Type |
 
 **Returns:** *boolean*
 
-Defined in: [isArray.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/isArray.ts#L1)
+Defined in: [isArray.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/isArray.ts#L1)
 
 ___
 
@@ -215,7 +217,7 @@ Name | Type |
 
 **Returns:** *boolean*
 
-Defined in: [isEmpty.ts:5](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/isEmpty.ts#L5)
+Defined in: [isEmpty.ts:5](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/isEmpty.ts#L5)
 
 ___
 
@@ -231,7 +233,7 @@ Name | Type |
 
 **Returns:** *any*
 
-Defined in: [isEqual.ts:3](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/isEqual.ts#L3)
+Defined in: [isEqual.ts:4](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/isEqual.ts#L4)
 
 ___
 
@@ -247,7 +249,7 @@ Name | Type |
 
 **Returns:** *boolean*
 
-Defined in: [isFloat.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/isFloat.ts#L1)
+Defined in: [isFloat.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/isFloat.ts#L1)
 
 ___
 
@@ -263,7 +265,7 @@ Name | Type |
 
 **Returns:** *boolean*
 
-Defined in: [isInteger.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/isInteger.ts#L1)
+Defined in: [isInteger.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/isInteger.ts#L1)
 
 ___
 
@@ -279,7 +281,29 @@ Name | Type |
 
 **Returns:** *boolean*
 
-Defined in: [isNotEmpty.ts:3](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/isNotEmpty.ts#L3)
+Defined in: [isNotEmpty.ts:3](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/isNotEmpty.ts#L3)
+
+___
+
+### isObject
+
+▸ `Const`**isObject**<Candidate\>(`value`: Candidate): *boolean*
+
+#### Type parameters:
+
+Name |
+:------ |
+`Candidate` |
+
+#### Parameters:
+
+Name | Type |
+:------ | :------ |
+`value` | Candidate |
+
+**Returns:** *boolean*
+
+Defined in: isObject.ts:1
 
 ___
 
@@ -295,7 +319,7 @@ Name | Type |
 
 **Returns:** *boolean*
 
-Defined in: [isRecord.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/isRecord.ts#L1)
+Defined in: [isRecord.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/isRecord.ts#L1)
 
 ___
 
@@ -311,7 +335,7 @@ Name | Type |
 
 **Returns:** *boolean*
 
-Defined in: [isString.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/isString.ts#L1)
+Defined in: [isString.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/isString.ts#L1)
 
 ___
 
@@ -333,7 +357,7 @@ Name | Type |
 
 **Returns:** T
 
-Defined in: [last.ts:8](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/last.ts#L8)
+Defined in: [last.ts:8](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/last.ts#L8)
 
 ▸ `Const`**last**(`x`: String): String
 
@@ -345,7 +369,7 @@ Name | Type |
 
 **Returns:** String
 
-Defined in: [last.ts:8](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/last.ts#L8)
+Defined in: [last.ts:8](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/last.ts#L8)
 
 ___
 
@@ -367,7 +391,7 @@ Name | Type |
 
 **Returns:** *Maybe*<F\>
 
-Defined in: [maybe.ts:43](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/maybe.ts#L43)
+Defined in: [maybe.ts:43](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/maybe.ts#L43)
 
 ___
 
@@ -383,7 +407,7 @@ Name | Type |
 
 **Returns:** *any*
 
-Defined in: [modulo.ts:3](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/modulo.ts#L3)
+Defined in: [modulo.ts:3](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/modulo.ts#L3)
 
 ___
 
@@ -399,7 +423,7 @@ Name | Type |
 
 **Returns:** *any*
 
-Defined in: [multiply.ts:3](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/multiply.ts#L3)
+Defined in: [multiply.ts:3](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/multiply.ts#L3)
 
 ___
 
@@ -409,7 +433,7 @@ ___
 
 **Returns:** *undefined*
 
-Defined in: [noop.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/noop.ts#L1)
+Defined in: [noop.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/noop.ts#L1)
 
 ___
 
@@ -431,7 +455,7 @@ Name | Type |
 
 **Returns:** *boolean*
 
-Defined in: [not.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/not.ts#L1)
+Defined in: [not.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/not.ts#L1)
 
 ___
 
@@ -447,7 +471,7 @@ Name | Type |
 
 **Returns:** *any*
 
-Defined in: [or.ts:3](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/or.ts#L3)
+Defined in: [or.ts:3](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/or.ts#L3)
 
 ___
 
@@ -471,7 +495,7 @@ Name | Type |
 
 **Returns:** *Pick*<T, K\>
 
-Defined in: [pick.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/pick.ts#L1)
+Defined in: [pick.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/pick.ts#L1)
 
 ___
 
@@ -495,7 +519,7 @@ Name | Type |
 
 **Returns:** (...`args`: T) => R
 
-Defined in: [pipe.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/pipe.ts#L1)
+Defined in: [pipe.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/pipe.ts#L1)
 
 ___
 
@@ -511,7 +535,7 @@ Name | Type |
 
 **Returns:** *any*
 
-Defined in: [prepend.ts:4](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/prepend.ts#L4)
+Defined in: [prepend.ts:4](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/prepend.ts#L4)
 
 ___
 
@@ -527,7 +551,42 @@ Name | Type |
 
 **Returns:** *any*
 
-Defined in: [prop.ts:3](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/prop.ts#L3)
+Defined in: [prop.ts:3](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/prop.ts#L3)
+
+___
+
+### random
+
+▸ `Const`**random**<T\>(`a`: T[]): T
+
+#### Type parameters:
+
+Name |
+:------ |
+`T` |
+
+#### Parameters:
+
+Name | Type |
+:------ | :------ |
+`a` | T[] |
+
+**Returns:** T
+
+Defined in: [random.ts:13](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/random.ts#L13)
+
+▸ `Const`**random**(`a`: *number*, `b`: *number*): *number*
+
+#### Parameters:
+
+Name | Type |
+:------ | :------ |
+`a` | *number* |
+`b` | *number* |
+
+**Returns:** *number*
+
+Defined in: [random.ts:13](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/random.ts#L13)
 
 ___
 
@@ -552,7 +611,7 @@ Name | Type |
 
 **Returns:** (*undefined* \| T)[]
 
-Defined in: [reorderArray.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/reorderArray.ts#L1)
+Defined in: [reorderArray.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/reorderArray.ts#L1)
 
 ___
 
@@ -575,7 +634,7 @@ Name | Type | Default value |
 
 **Returns:** (...`props`: P[]) => *void*
 
-Defined in: [skip.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/skip.ts#L1)
+Defined in: [skip.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/skip.ts#L1)
 
 ___
 
@@ -591,7 +650,7 @@ Name | Type |
 
 **Returns:** *Promise*<unknown\>
 
-Defined in: [sleep.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/sleep.ts#L1)
+Defined in: [sleep.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/sleep.ts#L1)
 
 ___
 
@@ -607,7 +666,7 @@ Name | Type |
 
 **Returns:** *any*
 
-Defined in: [sum.ts:3](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/sum.ts#L3)
+Defined in: [sum.ts:3](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/sum.ts#L3)
 
 ___
 
@@ -629,7 +688,7 @@ Name | Type |
 
 **Returns:** P
 
-Defined in: [trace.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/trace.ts#L1)
+Defined in: [trace.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/trace.ts#L1)
 
 ___
 
@@ -646,7 +705,7 @@ Name | Type |
 
 **Returns:** *any*[]
 
-Defined in: [unique.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/unique.ts#L1)
+Defined in: [unique.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/unique.ts#L1)
 
 ___
 
@@ -670,4 +729,4 @@ Name | Type |
 
 **Returns:** T[]
 
-Defined in: [updateArray.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/08fe063/src/updateArray.ts#L1)
+Defined in: [updateArray.ts:1](https://github.com/Tbutnyakov/tiny-fp/blob/4b4c4db/src/updateArray.ts#L1)

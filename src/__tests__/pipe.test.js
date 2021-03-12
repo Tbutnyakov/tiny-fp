@@ -8,11 +8,7 @@ describe('pipe func', () => {
 
     const testArg1 = 'hello';
 
-    pipe(
-      testFn1,
-      testFn2,
-      testFn3
-    )(testArg1);
+    pipe(testFn1, testFn2, testFn3)(testArg1);
 
     expect(testFn1).toHaveBeenCalledTimes(1);
     expect(testFn2).toHaveBeenCalledTimes(1);
