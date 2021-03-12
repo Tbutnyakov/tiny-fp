@@ -28,7 +28,8 @@
     "lint:js": "eslint . --ext .js,.ts,",
     "lint:js:fix": "eslint . --fix --ext .js,.ts,",
     "doc": "typedoc",
-    "prepare": "npm run prettier && npm run build && npm run doc",
+    "check": "npm run lint:js && npm run test",
+    "prepare": "npm run build && npm run doc",
     "prettier": "prettier --ignore-path .gitignore --write ./**/*.{js,ts}"
   },
   "repository": {
