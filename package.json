@@ -1,6 +1,6 @@
 {
   "name": "tiny-fp",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Simple tiny package for functional programming with Typescript",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
